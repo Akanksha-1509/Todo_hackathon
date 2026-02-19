@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct Todo_hackathonApp: App {
+struct Todo_Hackathon_AssignmentApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

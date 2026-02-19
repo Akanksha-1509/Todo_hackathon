@@ -3,66 +3,59 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 56;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5801DC5E2F47048100875BC4 /* Todo_Hackathon_AssingmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5801DC5D2F47048100875BC4 /* Todo_Hackathon_AssingmentApp.swift */; };
+		5801DC602F47048100875BC4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5801DC5F2F47048100875BC4 /* ContentView.swift */; };
+		5801DC622F47048400875BC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5801DC612F47048400875BC4 /* Assets.xcassets */; };
+		5801DC652F47048400875BC4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5801DC642F47048400875BC4 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
-		3B477D1F2F2B07B500E259BE /* PBXContainerItemProxy */ = {
+		5801DC6B2F47048400875BC4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3B477D092F2B07B300E259BE /* Project object */;
+			containerPortal = 5801DC522F47048000875BC4 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3B477D102F2B07B300E259BE;
-			remoteInfo = Todo_hackathon;
+			remoteGlobalIDString = 5801DC592F47048100875BC4;
+			remoteInfo = Todo_Hackathon_Assingment;
 		};
-		3B477D292F2B07B500E259BE /* PBXContainerItemProxy */ = {
+		5801DC752F47048400875BC4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3B477D092F2B07B300E259BE /* Project object */;
+			containerPortal = 5801DC522F47048000875BC4 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3B477D102F2B07B300E259BE;
-			remoteInfo = Todo_hackathon;
+			remoteGlobalIDString = 5801DC592F47048100875BC4;
+			remoteInfo = Todo_Hackathon_Assingment;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3B477D112F2B07B300E259BE /* Todo_hackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todo_hackathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B477D1E2F2B07B500E259BE /* Todo_hackathonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Todo_hackathonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B477D282F2B07B500E259BE /* Todo_hackathonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Todo_hackathonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5801DC5A2F47048100875BC4 /* Todo_Hackathon_Assingment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todo_Hackathon_Assingment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5801DC5D2F47048100875BC4 /* Todo_Hackathon_AssingmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo_Hackathon_AssingmentApp.swift; sourceTree = "<group>"; };
+		5801DC5F2F47048100875BC4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5801DC612F47048400875BC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5801DC642F47048400875BC4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5801DC6A2F47048400875BC4 /* Todo_Hackathon_AssingmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Todo_Hackathon_AssingmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5801DC742F47048400875BC4 /* Todo_Hackathon_AssingmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Todo_Hackathon_AssingmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		3B477D132F2B07B300E259BE /* Todo_hackathon */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Todo_hackathon;
-			sourceTree = "<group>";
-		};
-		3B477D212F2B07B500E259BE /* Todo_hackathonTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Todo_hackathonTests;
-			sourceTree = "<group>";
-		};
-		3B477D2B2F2B07B500E259BE /* Todo_hackathonUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Todo_hackathonUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
-
 /* Begin PBXFrameworksBuildPhase section */
-		3B477D0E2F2B07B300E259BE /* Frameworks */ = {
+		5801DC572F47048100875BC4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3B477D1B2F2B07B500E259BE /* Frameworks */ = {
+		5801DC672F47048400875BC4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3B477D252F2B07B500E259BE /* Frameworks */ = {
+		5801DC712F47048400875BC4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,157 +65,160 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3B477D082F2B07B300E259BE = {
+		5801DC512F47048000875BC4 = {
 			isa = PBXGroup;
 			children = (
-				3B477D132F2B07B300E259BE /* Todo_hackathon */,
-				3B477D212F2B07B500E259BE /* Todo_hackathonTests */,
-				3B477D2B2F2B07B500E259BE /* Todo_hackathonUITests */,
-				3B477D122F2B07B300E259BE /* Products */,
+				5801DC5C2F47048100875BC4 /* Todo_Hackathon_Assingment */,
+				5801DC5B2F47048100875BC4 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3B477D122F2B07B300E259BE /* Products */ = {
+		5801DC5B2F47048100875BC4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3B477D112F2B07B300E259BE /* Todo_hackathon.app */,
-				3B477D1E2F2B07B500E259BE /* Todo_hackathonTests.xctest */,
-				3B477D282F2B07B500E259BE /* Todo_hackathonUITests.xctest */,
+				5801DC5A2F47048100875BC4 /* Todo_Hackathon_Assingment.app */,
+				5801DC6A2F47048400875BC4 /* Todo_Hackathon_AssingmentTests.xctest */,
+				5801DC742F47048400875BC4 /* Todo_Hackathon_AssingmentUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		5801DC5C2F47048100875BC4 /* Todo_Hackathon_Assingment */ = {
+			isa = PBXGroup;
+			children = (
+				5801DC5D2F47048100875BC4 /* Todo_Hackathon_AssingmentApp.swift */,
+				5801DC5F2F47048100875BC4 /* ContentView.swift */,
+				5801DC612F47048400875BC4 /* Assets.xcassets */,
+				5801DC632F47048400875BC4 /* Preview Content */,
+			);
+			path = Todo_Hackathon_Assingment;
+			sourceTree = "<group>";
+		};
+		5801DC632F47048400875BC4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5801DC642F47048400875BC4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3B477D102F2B07B300E259BE /* Todo_hackathon */ = {
+		5801DC592F47048100875BC4 /* Todo_Hackathon_Assingment */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3B477D322F2B07B500E259BE /* Build configuration list for PBXNativeTarget "Todo_hackathon" */;
+			buildConfigurationList = 5801DC7E2F47048500875BC4 /* Build configuration list for PBXNativeTarget "Todo_Hackathon_Assingment" */;
 			buildPhases = (
-				3B477D0D2F2B07B300E259BE /* Sources */,
-				3B477D0E2F2B07B300E259BE /* Frameworks */,
-				3B477D0F2F2B07B300E259BE /* Resources */,
+				5801DC562F47048100875BC4 /* Sources */,
+				5801DC572F47048100875BC4 /* Frameworks */,
+				5801DC582F47048100875BC4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				3B477D132F2B07B300E259BE /* Todo_hackathon */,
-			);
-			name = Todo_hackathon;
-			packageProductDependencies = (
-			);
-			productName = Todo_hackathon;
-			productReference = 3B477D112F2B07B300E259BE /* Todo_hackathon.app */;
+			name = Todo_Hackathon_Assingment;
+			productName = Todo_Hackathon_Assingment;
+			productReference = 5801DC5A2F47048100875BC4 /* Todo_Hackathon_Assingment.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3B477D1D2F2B07B500E259BE /* Todo_hackathonTests */ = {
+		5801DC692F47048400875BC4 /* Todo_Hackathon_AssingmentTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3B477D352F2B07B500E259BE /* Build configuration list for PBXNativeTarget "Todo_hackathonTests" */;
+			buildConfigurationList = 5801DC812F47048500875BC4 /* Build configuration list for PBXNativeTarget "Todo_Hackathon_AssingmentTests" */;
 			buildPhases = (
-				3B477D1A2F2B07B500E259BE /* Sources */,
-				3B477D1B2F2B07B500E259BE /* Frameworks */,
-				3B477D1C2F2B07B500E259BE /* Resources */,
+				5801DC662F47048400875BC4 /* Sources */,
+				5801DC672F47048400875BC4 /* Frameworks */,
+				5801DC682F47048400875BC4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3B477D202F2B07B500E259BE /* PBXTargetDependency */,
+				5801DC6C2F47048400875BC4 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				3B477D212F2B07B500E259BE /* Todo_hackathonTests */,
-			);
-			name = Todo_hackathonTests;
-			packageProductDependencies = (
-			);
-			productName = Todo_hackathonTests;
-			productReference = 3B477D1E2F2B07B500E259BE /* Todo_hackathonTests.xctest */;
+			name = Todo_Hackathon_AssingmentTests;
+			productName = Todo_Hackathon_AssingmentTests;
+			productReference = 5801DC6A2F47048400875BC4 /* Todo_Hackathon_AssingmentTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3B477D272F2B07B500E259BE /* Todo_hackathonUITests */ = {
+		5801DC732F47048400875BC4 /* Todo_Hackathon_AssingmentUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3B477D382F2B07B500E259BE /* Build configuration list for PBXNativeTarget "Todo_hackathonUITests" */;
+			buildConfigurationList = 5801DC842F47048500875BC4 /* Build configuration list for PBXNativeTarget "Todo_Hackathon_AssingmentUITests" */;
 			buildPhases = (
-				3B477D242F2B07B500E259BE /* Sources */,
-				3B477D252F2B07B500E259BE /* Frameworks */,
-				3B477D262F2B07B500E259BE /* Resources */,
+				5801DC702F47048400875BC4 /* Sources */,
+				5801DC712F47048400875BC4 /* Frameworks */,
+				5801DC722F47048400875BC4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3B477D2A2F2B07B500E259BE /* PBXTargetDependency */,
+				5801DC762F47048400875BC4 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				3B477D2B2F2B07B500E259BE /* Todo_hackathonUITests */,
-			);
-			name = Todo_hackathonUITests;
-			packageProductDependencies = (
-			);
-			productName = Todo_hackathonUITests;
-			productReference = 3B477D282F2B07B500E259BE /* Todo_hackathonUITests.xctest */;
+			name = Todo_Hackathon_AssingmentUITests;
+			productName = Todo_Hackathon_AssingmentUITests;
+			productReference = 5801DC742F47048400875BC4 /* Todo_Hackathon_AssingmentUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3B477D092F2B07B300E259BE /* Project object */ = {
+		5801DC522F47048000875BC4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 2620;
-				LastUpgradeCheck = 2620;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					3B477D102F2B07B300E259BE = {
-						CreatedOnToolsVersion = 26.2;
+					5801DC592F47048100875BC4 = {
+						CreatedOnToolsVersion = 14.2;
 					};
-					3B477D1D2F2B07B500E259BE = {
-						CreatedOnToolsVersion = 26.2;
-						TestTargetID = 3B477D102F2B07B300E259BE;
+					5801DC692F47048400875BC4 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 5801DC592F47048100875BC4;
 					};
-					3B477D272F2B07B500E259BE = {
-						CreatedOnToolsVersion = 26.2;
-						TestTargetID = 3B477D102F2B07B300E259BE;
+					5801DC732F47048400875BC4 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 5801DC592F47048100875BC4;
 					};
 				};
 			};
-			buildConfigurationList = 3B477D0C2F2B07B300E259BE /* Build configuration list for PBXProject "Todo_hackathon" */;
+			buildConfigurationList = 5801DC552F47048000875BC4 /* Build configuration list for PBXProject "Todo_Hackathon_Assingment" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 3B477D082F2B07B300E259BE;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
-			productRefGroup = 3B477D122F2B07B300E259BE /* Products */;
+			mainGroup = 5801DC512F47048000875BC4;
+			productRefGroup = 5801DC5B2F47048100875BC4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3B477D102F2B07B300E259BE /* Todo_hackathon */,
-				3B477D1D2F2B07B500E259BE /* Todo_hackathonTests */,
-				3B477D272F2B07B500E259BE /* Todo_hackathonUITests */,
+				5801DC592F47048100875BC4 /* Todo_Hackathon_Assingment */,
+				5801DC692F47048400875BC4 /* Todo_Hackathon_AssingmentTests */,
+				5801DC732F47048400875BC4 /* Todo_Hackathon_AssingmentUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3B477D0F2F2B07B300E259BE /* Resources */ = {
+		5801DC582F47048100875BC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5801DC652F47048400875BC4 /* Preview Assets.xcassets in Resources */,
+				5801DC622F47048400875BC4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5801DC682F47048400875BC4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3B477D1C2F2B07B500E259BE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3B477D262F2B07B500E259BE /* Resources */ = {
+		5801DC722F47048400875BC4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -232,21 +228,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3B477D0D2F2B07B300E259BE /* Sources */ = {
+		5801DC562F47048100875BC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5801DC602F47048100875BC4 /* ContentView.swift in Sources */,
+				5801DC5E2F47048100875BC4 /* Todo_Hackathon_AssingmentApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5801DC662F47048400875BC4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3B477D1A2F2B07B500E259BE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3B477D242F2B07B500E259BE /* Sources */ = {
+		5801DC702F47048400875BC4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -256,24 +254,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3B477D202F2B07B500E259BE /* PBXTargetDependency */ = {
+		5801DC6C2F47048400875BC4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3B477D102F2B07B300E259BE /* Todo_hackathon */;
-			targetProxy = 3B477D1F2F2B07B500E259BE /* PBXContainerItemProxy */;
+			target = 5801DC592F47048100875BC4 /* Todo_Hackathon_Assingment */;
+			targetProxy = 5801DC6B2F47048400875BC4 /* PBXContainerItemProxy */;
 		};
-		3B477D2A2F2B07B500E259BE /* PBXTargetDependency */ = {
+		5801DC762F47048400875BC4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3B477D102F2B07B300E259BE /* Todo_hackathon */;
-			targetProxy = 3B477D292F2B07B500E259BE /* PBXContainerItemProxy */;
+			target = 5801DC592F47048100875BC4 /* Todo_Hackathon_Assingment */;
+			targetProxy = 5801DC752F47048400875BC4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3B477D302F2B07B500E259BE /* Debug */ = {
+		5801DC7C2F47048500875BC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -304,11 +301,9 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 97DD8H39LW;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -322,22 +317,20 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		3B477D312F2B07B500E259BE /* Release */ = {
+		5801DC7D2F47048500875BC4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -368,11 +361,9 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 97DD8H39LW;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -380,24 +371,25 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		3B477D332F2B07B500E259BE /* Debug */ = {
+		5801DC7F2F47048500875BC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 97DD8H39LW;
+				DEVELOPMENT_ASSET_PATHS = "\"Todo_Hackathon_Assingment/Preview Content\"";
+				DEVELOPMENT_TEAM = 338Y6U39M2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -405,32 +397,28 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rahulpawar166.Todo-hackathon";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.akanksha.Todo-Hackathon-Assingment";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		3B477D342F2B07B500E259BE /* Release */ = {
+		5801DC802F47048500875BC4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 97DD8H39LW;
+				DEVELOPMENT_ASSET_PATHS = "\"Todo_Hackathon_Assingment/Preview Content\"";
+				DEVELOPMENT_TEAM = 338Y6U39M2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -438,148 +426,135 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rahulpawar166.Todo-hackathon";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.akanksha.Todo-Hackathon-Assingment";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		3B477D362F2B07B500E259BE /* Debug */ = {
+		5801DC822F47048500875BC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 97DD8H39LW;
+				DEVELOPMENT_TEAM = 338Y6U39M2;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rahulpawar166.Todo-hackathonTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.akanksha.Todo-Hackathon-AssingmentTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Todo_hackathon.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Todo_hackathon";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Todo_Hackathon_Assingment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Todo_Hackathon_Assingment";
 			};
 			name = Debug;
 		};
-		3B477D372F2B07B500E259BE /* Release */ = {
+		5801DC832F47048500875BC4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 97DD8H39LW;
+				DEVELOPMENT_TEAM = 338Y6U39M2;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rahulpawar166.Todo-hackathonTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.akanksha.Todo-Hackathon-AssingmentTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Todo_hackathon.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Todo_hackathon";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Todo_Hackathon_Assingment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Todo_Hackathon_Assingment";
 			};
 			name = Release;
 		};
-		3B477D392F2B07B500E259BE /* Debug */ = {
+		5801DC852F47048500875BC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 97DD8H39LW;
+				DEVELOPMENT_TEAM = 338Y6U39M2;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rahulpawar166.Todo-hackathonUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.akanksha.Todo-Hackathon-AssingmentUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Todo_hackathon;
+				TEST_TARGET_NAME = Todo_Hackathon_Assingment;
 			};
 			name = Debug;
 		};
-		3B477D3A2F2B07B500E259BE /* Release */ = {
+		5801DC862F47048500875BC4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 97DD8H39LW;
+				DEVELOPMENT_TEAM = 338Y6U39M2;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rahulpawar166.Todo-hackathonUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.akanksha.Todo-Hackathon-AssingmentUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Todo_hackathon;
+				TEST_TARGET_NAME = Todo_Hackathon_Assingment;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3B477D0C2F2B07B300E259BE /* Build configuration list for PBXProject "Todo_hackathon" */ = {
+		5801DC552F47048000875BC4 /* Build configuration list for PBXProject "Todo_Hackathon_Assingment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3B477D302F2B07B500E259BE /* Debug */,
-				3B477D312F2B07B500E259BE /* Release */,
+				5801DC7C2F47048500875BC4 /* Debug */,
+				5801DC7D2F47048500875BC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3B477D322F2B07B500E259BE /* Build configuration list for PBXNativeTarget "Todo_hackathon" */ = {
+		5801DC7E2F47048500875BC4 /* Build configuration list for PBXNativeTarget "Todo_Hackathon_Assingment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3B477D332F2B07B500E259BE /* Debug */,
-				3B477D342F2B07B500E259BE /* Release */,
+				5801DC7F2F47048500875BC4 /* Debug */,
+				5801DC802F47048500875BC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3B477D352F2B07B500E259BE /* Build configuration list for PBXNativeTarget "Todo_hackathonTests" */ = {
+		5801DC812F47048500875BC4 /* Build configuration list for PBXNativeTarget "Todo_Hackathon_AssingmentTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3B477D362F2B07B500E259BE /* Debug */,
-				3B477D372F2B07B500E259BE /* Release */,
+				5801DC822F47048500875BC4 /* Debug */,
+				5801DC832F47048500875BC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3B477D382F2B07B500E259BE /* Build configuration list for PBXNativeTarget "Todo_hackathonUITests" */ = {
+		5801DC842F47048500875BC4 /* Build configuration list for PBXNativeTarget "Todo_Hackathon_AssingmentUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3B477D392F2B07B500E259BE /* Debug */,
-				3B477D3A2F2B07B500E259BE /* Release */,
+				5801DC852F47048500875BC4 /* Debug */,
+				5801DC862F47048500875BC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3B477D092F2B07B300E259BE /* Project object */;
+	rootObject = 5801DC522F47048000875BC4 /* Project object */;
 }
